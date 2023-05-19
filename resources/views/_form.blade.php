@@ -62,28 +62,19 @@
     </div>
 </div>
 <div class="row">
-    <div class="col-6">
+    <div class="col-4">
         <div class="form-group">
             <label for="cidade" class="form-label">Cidade</label>
             <input value="{{ @$diarista->cidade }}" type="text" class="form-control" id="cidade" name="cidade"
                 required maxlength="50">
         </div>
     </div>
-    <div class="col-6">
+    <div class="col-4">
         <label for="estado" class="form-label">Estado</label>
         <input value="{{ @$diarista->estado }}" type="text" class="form-control" id="estado" name="estado"
             required maxlength="2">
     </div>
-</div>
-<div class="row">
-    <div class="col-6">
-        <div class="form-group">
-            <label for="codigo_ibge" class="form-label">Código IBGE</label>
-            <input value="{{ @$diarista->codigo_ibge }}" type="text" class="form-control" id="codigo_ibge"
-                name="codigo_ibge" required>
-        </div>
-    </div>
-    <div class="col-6">
+    <div class="col-4">
         <label for="foto_usuario" class="form-label">Foto</label>
         <input type="file" class="form-control" id="foto_usuario" name="foto_usuario">
     </div>
